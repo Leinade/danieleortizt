@@ -131,3 +131,14 @@ img.wp {
     font-size: 1.2rem;
     display: block;
 }
+.producto-tarjeta a {
+    text-decoration: none;
+    color; inherit;
+    display; block;
+}
+
+.producto tarjeta a {
+    transform: translateY (-5px);
+    box-shadow: 0 8px 15px rgba (0, 0, 0, 0.15);
+    cursor: pointer;
+}
