@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Tienda Deportiva</title>
+    <!-- Conexión con tu archivo de estilos original -->
     <link rel="stylesheet" href="css/matriz.css">
-    <link href="https://googleapis.com" rel="stylesheet">
-    <link rel="stylesheet" href="https://jsdelivr.net">
 </head>
 
 <body>
 
-   <header class="mi-encabezado">
+    <!-- Encabezado de la Tienda -->
+    <header class="mi-encabezado">
         <img class="wp" src="img/Logo_Adidas.png" alt="Adidas"> 
         <nav class="navegacion-principal">
             <span class="menu-texto">Mi tienda</span>
@@ -22,64 +22,71 @@
         </nav>
     </header>
     
-
+    <!-- Contenido Principal -->
     <main>
-       <section class="banner-html">
-    <img src="img/banner3.avif" alt="Banner Deportivo" class="banner-imagen">
-    <div class="banner-contenido-html">
-        <a href="https://adidas.pe" target="_blank" class="btn-shop">compralo todo</a>
-    </div>
-</section>
+        <!-- Banner Principal -->
+        <section class="banner-html">
+            <img src="img/banner3.avif" alt="Banner Deportivo" class="banner-imagen">
+            <div class="banner-contenido-html">
+                <!-- Se agregó el comando anti-bloqueo al botón del banner principal -->
+                <a href="https://adidas.pe" target="_blank" rel="noopener noreferrer" class="btn-shop">compralo todo</a>
+            </div>
+        </section>
 
+        <!-- Sección de Catálogo de Productos -->
         <section class="productos-seccion">
             <h2 class="titulo-productos">Productos Disponibles</h2>
             <div class="productos-contenedor">
     
-    <a href="https://www.adidas.pe/chaqueta-firebird/KR9606.html" target="_blank" class="producto-tarjeta">
-        <div class="producto-imagen-wrapper">
-            <img src="img/adidas1.avif" alt="Casaca Deportiva Firebird">
-        </div>
-        <div class="producto-info">
-            <h3>Casaca Deportiva Firebird</h3>
-            <span class="precio"> s/ 269.00</span>
-        </div>
-    </a>
+                <!-- Producto 1: Casaca Firebird -->
+                <a href="https://adidas.pe" target="_blank" rel="noopener noreferrer" class="producto-tarjeta">
+                    <div class="producto-imagen-wrapper">
+                        <img src="img/adidas1.avif" alt="Casaca Deportiva Firebird">
+                    </div>
+                    <div class="producto-info">
+                        <h3>Casaca Deportiva Firebird</h3>
+                        <span class="precio">s/ 269.00</span>
+                    </div>
+                </a>
 
-    <a href="https://www.adidas.pe/camiseta-sin-mangas-de-malla-de-basquet-adidas/KG7299.html" target="_blank" class="producto-tarjeta">
-        <div class="producto-imagen-wrapper">
-            <img src="img/adidas2.avif" alt="CAMISETA SIN MANGAS DE MALLA DE BÁSQUET ADIDAS">
-        </div>
-        <div class="producto-info">
-            <h3>CAMISETA SIN MANGAS DE MALLA DE BÁSQUET ADIDAS</h3>
-            <span class="precio"><s>s/ 399.00</s> s/ 299.00</span>
-        </div>
-    </a>
+                <!-- Producto 2: Camiseta de Básquet -->
+                <a href="https://adidas.pe" target="_blank" rel="noopener noreferrer" class="producto-tarjeta">
+                    <div class="producto-imagen-wrapper">
+                        <img src="img/adidas2.avif" alt="CAMISETA SIN MANGAS DE MALLA DE BÁSQUET ADIDAS">
+                    </div>
+                    <div class="producto-info">
+                        <h3>CAMISETA SIN MANGAS DE MALLA DE BÁSQUET ADIDAS</h3>
+                        <span class="precio"><s>s/ 399.00</s> s/ 299.00</span>
+                    </div>
+                </a>
 
-    <a href="https://www.adidas.pe/camiseta-bringback-remixed-japon/KD5984.html" target="_blank" class="producto-tarjeta">
-        <div class="producto-imagen-wrapper">
-            <img src="img/adidas5.jpeg" alt="Polo Japon">
-        </div>
-        <div class="producto-info">
-            <h3>Camiseta Bringback Remixed Japón</h3>
-            <span class="precio"> s/ 599.00 </span>
-        </div>
-    </a>
+                <!-- Producto 3: Polo Japón -->
+                <a href="https://adidas.pe" target="_blank" rel="noopener noreferrer" class="producto-tarjeta">
+                    <div class="producto-imagen-wrapper">
+                        <img src="img/adidas5.jpeg" alt="Polo Japon">
+                    </div>
+                    <div class="producto-info">
+                        <h3>Camiseta Bringback Remixed Japón</h3>
+                        <span class="precio">s/ 599.00</span>
+                    </div>
+                </a>
 
-    <a href="https://www.adidas.pe/zapatillas-adistar-control-5-mj/KD5985.html" target="_blank" class="producto-tarjeta">
-        <div class="producto-imagen-wrapper">
-            <img src="img/adidas4.avif" alt="Zapatillas Adidas">
-        </div>
-        <div class="producto-info">
-            <h3>ADIDAS</h3>
-            <span class="precio">ADISTAR CONTROL 5 MJ</span>
-        </div>
-    </a>
+                <!-- Producto 4: Zapatillas Adistar -->
+                <a href="https://adidas.pe" target="_blank" rel="noopener noreferrer" class="producto-tarjeta">
+                    <div class="producto-imagen-wrapper">
+                        <img src="img/adidas4.avif" alt="Zapatillas Adidas">
+                    </div>
+                    <div class="producto-info">
+                        <h3>Zapatillas Adistar Control 5 MJ</h3>
+                        <span class="precio">s/ 459.00</span> 
+                    </div>
+                </a>
 
-</div>
+            </div>
         </section>
     </main>
 
-   
+    <!-- Pie de Página -->
     <footer class="mi-footer">
         <p>&copy; 2026 Leinade. Todos los derechos reservados.</p>
     </footer>
