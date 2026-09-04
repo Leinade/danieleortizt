@@ -176,9 +176,12 @@ img.wp {
         font-size: 1rem;
     }
 
+    .productos-seccion {
+        padding: 40px 10px;
+    }
+
     .productos-seccion h2 {
-        font-size: 1.5rem;
-        word-wrap: break-word;
-        padding: 0 10px;
+        font-size: 1.3rem;
+        line-height: 1.2;
     }
 }
